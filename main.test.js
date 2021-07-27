@@ -6,3 +6,8 @@ const testItem = { name: "chips", calories: 200 };
 test("returns true if an objects calorie id is lower than 300", () => {
   expect(calorieCheck(testItem)).toBe(true);
 });
+
+// const testItem = { name: "chips", calories: 200 };
+test("returns true if an objects calorie id is lower than 300", () => {
+  expect(calorieCheck(testItem)).toBeTruthy();
+});

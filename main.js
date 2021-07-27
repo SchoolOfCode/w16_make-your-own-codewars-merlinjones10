@@ -17,6 +17,7 @@ function calorieCheck(foodItem) {
   }
   return false;
 }
+console.log(calorieCheck({ name: "chips", calories: 100 }));
 
 // console.log(calorieCheck(testFood));
 // export default calorieCheck;
