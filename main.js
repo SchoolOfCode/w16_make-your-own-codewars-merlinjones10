@@ -12,12 +12,10 @@ Gregg needs to stay below 200 calories for lunch. Write a function that returns 
 
 //👉 Write the function your CodeWarriors will start with below here:
 function calorieCheck(foodItem) {
-  if (foodItem.calories < 300) {
-    return true;
-  }
+  if (foodItem.calories < 300) return true;
   return false;
 }
-console.log(calorieCheck({ name: "chips", calories: 100 }));
+console.log(calorieCheck({ name: "chips", calories: 900 }));
 
 // console.log(calorieCheck(testFood));
 // export default calorieCheck;
